@@ -20,5 +20,15 @@ This project is an implementation of a basic drwaing program similar to Paint, e
 ## Installation and Execution
 1. Clone this repository:
    ```shellscript
-   
+      git@github.com:YouuHD/Assembly-Paint.git
+   ```
+2. Download DOSBox for emulation stuff
+   https://www.dosbox.com/
+3. Open DOSBox and compile the code
+   ```sh
+   nasm -f bin paint.asm -o paint.com
+   ```
+4. Run the program in DOSBox
+   ```
+   paint.com
    ```
